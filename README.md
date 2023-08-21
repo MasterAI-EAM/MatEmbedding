@@ -11,6 +11,7 @@ Main idea:
   - DARWIN embeddings (pretrained by us)
 - calculate similarity of material names (filtered by NER tools) and selected word (for examples, "thermoelectric")
   - need to recognize material names & other useful phrases first before training embeddings
+  - may involve entity resolution
   - **Is there any ways to improve tokenizer for domain-specific LLM? need pre or post process?**
 - eval: use experimental data (score of material names) to rank and compare correlation.
 - for prediction show: divide top material names into used and unused. Unused ones are potential good ones.
