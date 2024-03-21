@@ -12,7 +12,11 @@ Note: Since OpenAI embedding cannot generate contextual token embedding, we just
 
 The results show that context-averaged BERT embeddings are better than context-free ones, but still not as good as Word2Vec embedding in the thermoelectric material prediction task.
 
-We further improve MatBERT embedding by contrastive learning and add more experiments to systematically evaluate the quality of embedding & performance in downstream tasks:
+We further improve MatBERT embedding by contrastive learning and add more experiments to systematically evaluate the quality of embedding & performance in downstream tasks.
+
+## Datasets for training:
+- word2vec material names (pairs with similarity scores) [prepared by Yuwei]
+- 
 
 
 
