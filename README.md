@@ -15,8 +15,11 @@ The results show that context-averaged BERT embeddings are better than context-f
 We further improve MatBERT embedding by contrastive learning and add more experiments to systematically evaluate the quality of embedding & performance in downstream tasks.
 
 ## Datasets for training:
-- word2vec material names (pairs with similarity scores) [prepared by Yuwei]
-- 
+- [ ] Word2vec material names (pairs with similarity scores) [prepared by Yuwei]
+- [ ] title and abstracts [prepared by Yuwei] 
+- [x] Wiki material formula, names, and description [prepared by Nan]
+
+
 
 
 
