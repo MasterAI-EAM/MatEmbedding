@@ -6,7 +6,7 @@ Methods:
 <ul>
 <li>context-free: no context, average of token embeddings, for example, SiO2 embedding = avg("Si#" embedding + "#O2" embedding).</li>
 <li>context-average: the material names are in the sentence. Use average of contextual token embedding (or <CLS> token) </li>
-<\ul>
+</ul>
 
 
 
