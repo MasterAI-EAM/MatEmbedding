@@ -1,4 +1,4 @@
-# MAT_prediction
+# MAT prediction version 1.0
 ## Background:
 Since word2vec is static and dynamic embeddings (like BERT) have more advantages (no OOV problem, token representation, contextual representation), we want to see the performance of BERT embeddings on material prediction.
 
@@ -18,6 +18,14 @@ We further improve MatBERT embedding by contrastive learning and add more experi
 - [ ] Word2vec material names (pairs with similarity scores) - support supervised training [prepared by Yuwei]
 - [ ] title and abstracts - support supervised training & unsupervised training [prepared by Yuwei] 
 - [x] Wiki material formula, names, and description - support supervised & unsupervised training [prepared by Nan]
+
+## Metrics/Datasets for evaluation:
+- [ ] Anistropy (a relative value. Use sentence corpus, for example, description list, or material name list) 
+- [x] 100 material names (50 similar, 50 not similar)
+- [x] thermoelectric zT, use rank correlation
+
+## Experiments to do:
+train MatBERT with Wiki data
 
 
 
