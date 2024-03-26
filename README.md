@@ -22,10 +22,15 @@ We further improve MatBERT embedding by contrastive learning and add more experi
 ## Metrics/Datasets for evaluation:
 - [x] Anistropy (a relative value. Use sentence corpus, for example, description list, or material name list) 
 - [x] 100 material names (50 similar, 50 not similar)
-- [x] thermoelectric zT, use rank correlation
-- [x] other kind of property (more data for training regression model)
+- [x] thermoelectric zT
+- [x] band gap (matbench_mp_gap)
 
-## Experiments 1.0:
+## Experiments 1.0 (for digital discovery):
+add experiments: 1. MatBERT embedding/structure embedding/concatenate embedding for zT regression 2. for band gap data regression
+
+goal: prove combining two is better than only using text/structure
+
+## Experiments 2.0 (for contrastive learning)
 train MatBERT with Wiki data, compare performance before & after (including different layers, different methods, and different tasks)
 
 
