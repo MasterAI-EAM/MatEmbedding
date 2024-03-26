@@ -20,7 +20,7 @@ We further improve MatBERT embedding by contrastive learning and add more experi
 - [x] Wiki material formula, names, and description - support supervised & unsupervised training [prepared by Nan]
 
 ## Metrics/Datasets for evaluation:
-- [ ] Anistropy (a relative value. Use sentence corpus, for example, description list, or material name list) 
+- [x] Anistropy (a relative value. Use sentence corpus, for example, description list, or material name list) 
 - [x] 100 material names (50 similar, 50 not similar)
 - [x] thermoelectric zT, use rank correlation
 - [ ] other kind of property (more data for training regression model)
