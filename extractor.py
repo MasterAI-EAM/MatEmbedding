@@ -15,6 +15,7 @@ there are 5 kinds of bert embedding:
 4. context-average-CLS: input list of sentences, use average of CLS token embeddings
 5. context-average-sen: input list of sentences, average of average(token embeddings in sentence)
 Use single layer extracting, but each layer.
+Note: add sentence-transformer embedding (add a pool layer)
 when extracting, 4=2, 5=1, the only difference is input (change from material name to sentence)
 so three functions under Extractor: 
 1. avg_all (for context-free-name & context-average-sen), 
@@ -28,6 +29,9 @@ class Extractor:
         self.model_path = model_path
         self.tokenizer = BertTokenizer.from_pretrained(self.model_path, do_lower_case=False)
         self.model = BertModel.from_pretrained(self.model_path, output_hidden_states=True).eval()
+
+    def token_num(self, name):
+        return len(self.tokenizer.tokenize(name))
 
     def avg_all(self, name, layer_idx):
         tokenized_text = self.tokenizer.tokenize(name)
