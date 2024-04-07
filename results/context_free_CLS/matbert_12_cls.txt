@@ -1,0 +1,2 @@
+SpearmanrResult(correlation=0.20830211602713375, pvalue=0.057245944777541025)
+AnisotropyResult(0.7587522121933912)
