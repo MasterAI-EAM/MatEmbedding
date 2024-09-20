@@ -34,8 +34,8 @@ goal: prove combining two is better than only using text/structure
 train MatBERT with Wiki data, compare performance before & after (including different layers, different methods, and different tasks)
 
 ## Files 
-- Fine-tuning code scripts: first_step_triplets, second_step_wiki
-- Evaluation datasets: zt_ori_84.txt (standard ranking), thermo_sens.json.txt (thermoelectric context sentences), zt_json.json.txt (material context sentences)
+- Fine-tuning code scripts: first_finetuning_step.ipynb, second_finetuning_step.ipynb
+- Evaluation datasets: zt_ori_84.txt (standard ranking), thermo_sens.txt (thermoelectric context sentences), mat_sens.txt (material context sentences)
 - Evaluation code scripts: finel_result_SentMatBERT_MNR.ipynb
 - Requirements: requirements.txt
 - Model usage demo: sentence_embedding_demo.ipynb
