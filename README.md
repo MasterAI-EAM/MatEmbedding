@@ -35,7 +35,7 @@ train MatBERT with Wiki data, compare performance before & after (including diff
 
 ## Files 
 - Fine-tuning code scripts: first_finetuning_step.ipynb, second_finetuning_step.ipynb
-- Evaluation datasets: zt_ori_84.txt (standard ranking), thermo_sens.txt (thermoelectric context sentences), mat_sens.txt (material context sentences)
+- Evaluation datasets: zt_ori_84.txt (standard ranking), context_sents85.txt (context sentences) (没有上传成功，一直显示uploading)
 - Evaluation code scripts: finel_result_SentMatBERT_MNR.ipynb
 - Requirements: requirements.txt
 - Model usage demo: sentence_embedding_demo.ipynb
