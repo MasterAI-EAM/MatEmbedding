@@ -36,14 +36,10 @@ train MatBERT with Wiki data, compare performance before & after (including diff
 ## Files 
 - Fine-tuning code scripts: first_finetuning_step.ipynb, second_finetuning_step.ipynb
 - Fine-tuning datasets: [AllNLI](https://huggingface.co/datasets/sentence-transformers/all-nli), [QQP](https://huggingface.co/datasets/embedding-data/QQP_triplets), formulae_synonyms_descriptions.csv
-- Evaluation datasets: zt_ori_84.txt (standard ranking), context_sents85.zip (context sentences for 84 materials and 1 application)
-- Evaluation code scripts: finel_result_SentMatBERT_MNR.ipynb
+- Evaluation datasets: zt_ori_84.txt (standard ranking), context_sents85.txt (context sentences for 84 materials and 1 application)
+- Evaluation code script: finel_result_SentMatBERT_MNR.ipynb
+- Model usage demo: sentence_embedding_demo.ipynb (with model download link)
 - Requirements: requirements.txt
-- Model usage demo: sentence_embedding_demo.ipynb
-
-
-
-
 
 
 
