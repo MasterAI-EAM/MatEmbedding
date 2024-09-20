@@ -33,6 +33,13 @@ goal: prove combining two is better than only using text/structure
 ## Experiments 2.0 (for contrastive learning)
 train MatBERT with Wiki data, compare performance before & after (including different layers, different methods, and different tasks)
 
+## Files 
+fine-tuning code scripts: first_step_triplets.ipynb, second_step_wiki.ipynb
+evaluation datasets: zt_ori_84.txt, thermo_sens.json.txt, zt_json.json.txt
+evaluation code scripts: finel_result_SentMatBERT_MNR.ipynb
+requirements: requirements.txt
+model demo: sentence_embedding_demo.ipynb
+
 
 
 
