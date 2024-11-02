@@ -1,4 +1,4 @@
-# Matter2Vec version 1.0
+# Matter2Vec version 0.1
 ## Background:
 Since word2vec is static and dynamic embeddings (like BERT) have more advantages (no OOV problem, token representation, contextual representation), we want to see the performance of BERT embeddings on material prediction.
 
